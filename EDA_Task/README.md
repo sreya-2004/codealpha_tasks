@@ -1,29 +1,40 @@
-# Exploratory Data Analysis (EDA)
+# Exploratory Data Analysis (EDA) - Customer Churn Analysis
 
 ## Objective
-Explore the customer churn dataset and identify trends, patterns, and factors influencing customer churn.
+The objective of this Exploratory Data Analysis (EDA) project is to understand customer churn behavior and identify the factors that influence customer retention. The analysis focuses on discovering trends, patterns, and relationships within the dataset through statistical summaries and visualizations.
 
 ## Dataset
-IBM Telco Customer Churn Dataset
+**IBM Telco Customer Churn Dataset**
 
-## EDA Performed
-- Dataset overview and shape
-- Churn distribution analysis
-- Contract type analysis
-- Internet service analysis
-- Monthly charges analysis
-- Satisfaction score analysis
-- Customer status analysis
+The dataset contains customer demographics, service information, contract details, billing information, satisfaction scores, and churn-related attributes used to analyze customer behavior and retention.
 
-## Key Findings
-- Customer Churn Rate: 26.54%
-- Month-to-Month contracts have the highest churn.
-- Fiber Optic customers show higher churn.
-- Low satisfaction scores are strongly associated with churn.
-- Competitor offers are a major reason for customer loss.
-
-## Tools Used
+## Technologies Used
 - Python
 - Pandas
 - Matplotlib
+- Seaborn
 - Google Colab
+
+## EDA Performed
+- Dataset Overview and Structure Analysis
+- Missing Value Analysis
+- Statistical Summary of Numerical Features
+- Customer Churn Distribution Analysis
+- Contract Type Analysis
+- Internet Service Analysis
+- Monthly Charges Analysis
+- Satisfaction Score Analysis
+- Customer Status Analysis
+- Churn Category and Churn Reason Exploration
+
+## Key Findings
+- The overall customer churn rate is **26.54%**.
+- Customers with Month-to-Month contracts exhibit significantly higher churn rates than customers with long-term contracts.
+- Fiber Optic internet users show higher churn compared to DSL and Cable users.
+- Customers with lower satisfaction scores are more likely to leave the company.
+- Customers who churn often cite competitor offers and better devices as major reasons for switching.
+- Monthly charges may influence churn behavior, particularly among customers with higher service costs.
+- Customer retention is strongly associated with satisfaction levels and contract duration.
+
+## Conclusion
+The exploratory analysis revealed several important factors influencing customer churn, including contract type, internet service type, monthly charges, customer satisfaction, and competitor offerings. These insights provide a strong foundation for developing predictive models and designing effective customer retention strategies.
