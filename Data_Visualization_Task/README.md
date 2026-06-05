@@ -1,28 +1,53 @@
-# Data Visualization
+# Customer Churn Analysis
 
 ## Objective
-Create meaningful visualizations to understand customer churn patterns and communicate insights effectively.
+
+The objective of this project is to analyze customer churn patterns and identify the key factors that influence customer retention. Data visualization techniques were used to uncover insights and support data-driven decision-making.
 
 ## Dataset
-IBM Telco Customer Churn Dataset
+
+**IBM Telco Customer Churn Dataset**
+
+The dataset contains customer demographics, service usage details, billing information, contract types, satisfaction scores, and churn status.
+
+## Technologies Used
+
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* Google Colab
 
 ## Visualizations Created
-- Customer Churn Distribution
-- Internet Type vs Customer Churn
-- Monthly Charges Distribution
-- Monthly Charges vs Churn
-- Satisfaction Score vs Customer Churn
-- Top Churn Reasons
+
+* Customer Churn Distribution
+* Monthly Charges Distribution
+* Monthly Charges vs Churn
+* Satisfaction Score vs Customer Churn
+* Gender vs Churn
+* Dependents vs Churn
+* Senior Citizen vs Churn
+* Contract Type vs Churn
+* Internet Type vs Churn
+* Payment Method vs Churn
+* Paperless Billing vs Churn
+* Offer vs Churn
+* Churn Category Distribution
+* Top 10 Churn Reasons
 
 ## Key Insights
-- Churn rate is 26.54%.
-- Fiber Optic customers have higher churn.
-- Customers with low satisfaction scores are more likely to leave.
-- Month-to-Month contracts show the highest churn.
-- Competitor offers and better devices are major churn drivers.
 
-## Tools Used
-- Python
-- Pandas
-- Matplotlib
-- Google Colab
+* The overall customer churn rate is **26.54%**.
+* Customers with Month-to-Month contracts exhibit higher churn levels.
+* Fiber Optic internet users show higher churn compared to DSL and Cable users.
+* Customers with low satisfaction scores are significantly more likely to churn.
+* Customers without dependents show a greater tendency to churn.
+* Senior citizens exhibit a higher proportion of churn within their customer group.
+* Customers using paperless billing show higher churn levels.
+* Bank Withdrawal customers exhibit higher churn compared to other payment methods.
+* Competitor-related factors are the leading causes of customer churn.
+* Better competitor offers and devices are the most common churn reasons.
+
+## Conclusion
+
+Customer churn is influenced by multiple factors, including contract type, customer satisfaction, internet service type, billing preferences, and competitor offerings. The analysis highlights areas where organizations can focus their retention strategies to reduce churn and improve customer loyalty.
